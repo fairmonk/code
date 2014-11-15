@@ -25,7 +25,7 @@ public class ChromeDriverTest {
 
         // tell webdriver where to find the chrome driver
         String currentDir = System.getProperty("user.dir");
-        String chromeDriverLocation = currentDir + "/../tools/chromedriver/chromedriver.exe";
+        String chromeDriverLocation = currentDir + "/tools/chromedriver/chromedriver.exe";
         System.setProperty("webdriver.chrome.driver", chromeDriverLocation);
 
 
